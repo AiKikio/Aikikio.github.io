@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[docker介绍、安装]]></title>
+      <url>%2F2017%2F04%2F03%2Fmeet%2F</url>
+      <content type="text"><![CDATA[Docker 是一个开源的应用容器引擎，让应用的分发、测试、部署都变得前所未有的高效和轻松！ Ubuntu安装Docker$ curl -fsSL https://get.docker.com/ | sh$ curl -fsSL https://get.docker.com/gpg | sudo apt-key add -sudo systemctl start docker$ sudo service docker startdocker version 查看版本信息 Centos7安装docker1.添加yum repo1 tee /etc/yum.repos.d/docker.repo &lt;&lt;-‘EOF’2 [dockerrepo]3 name=Docker Repository4 baseurl=https://yum.dockerproject.org/repo/main/centos/7/5 enabled=16 gpgcheck=17 gpgkey=https://yum.dockerproject.org/gpg8 EOF 2.安装yum install docker-engine 3.启动systemctl start docker 4.验证docker version 总结此篇文章主要介绍Docker在Ubuntu和Centos7上的安装，当然docker也可在windows和Mac OS上运行，这里就不过多描述了，想了解的小伙伴可以上docker官网学习。 .]]></content>
+    </entry>
+
+    
+  
+  
+</search>
